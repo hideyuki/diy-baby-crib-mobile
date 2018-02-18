@@ -1,0 +1,1 @@
+0 * * * * cd /home/pi/diy-baby-crib-mobile/rpi/facedetection; python facedetection.py

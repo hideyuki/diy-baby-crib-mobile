@@ -1,0 +1,10 @@
+#!/bin/sh -e
+
+exec 2> /tmp/rc.local.log
+exec 1>&2
+set -x
+
+python /home/pi/diy-baby-crib-mobile/rpi/main/mobile.py &
+
+exit 0
+
